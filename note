@@ -1,0 +1,16 @@
+ 下面的说明是针对友盟的：
+
+A：如果您的应用使用了混淆， 请添加
+
+-keepclassmembers class * {
+   public <init>(org.json.JSONObject);
+}
+这是由于SDK中的部分代码使用反射来调用构造函数， 如果被混淆掉， 在运行时会提示"NoSuchMethod"错误。 另外，由于SDK需要引用导入工程的资源文件，通过了反射机制得到资源引用文件R.java，但是在开发者通过proguard等混淆/优化工具处理apk时，proguard可能会将R.java删除，如果遇到这个问题，请在proguard配置文件中添加keep命令如：
+
+-keep public class [您的应用包名].R$*{
+public static final int *;
+}
+把[您的应用包名] 替换成您自己的包名，如com.yourcompany.example。 如果您使用了双向反馈功能，还需要添加下面代码，以免我们自定义的UI被混淆：
+
+-keep public class com.umeng.fb.ui.ThreadView {
+}

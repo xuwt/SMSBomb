@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:41
+-keep class com.umeng.common.net.DownloadingService { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.umeng.update.UpdateDialogActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.xuwt.smsbomb.LoadingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.xuwt.smsbomb.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.xuwt.smsbomb.SMService { <init>(...); }
+

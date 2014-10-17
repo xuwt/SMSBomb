@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMSBomb</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start_btn_string">开始轰炸</string>
+    <string name="stop_btn_string">结束轰炸</string>
+    <string name="start_smsbomb_string">轰炸服务已经开启！</string>
+    <string name="stop_smsbomb_string">轰炸服务已经停止！</string>
+    <string name="error_phone_format_string">请输入正确的手机号！</string>
+    <string name="input_phone_number_string">请输入手机号</string>
+    <string name="sms_bomb_free_string">短信轰炸免费版</string>
+    <string name="about_string">关于</string>
+    <string name="exit_string">退出</string>
+    <string name="back_string">返回</string>
+    <string name="setting_string">设置</string>
+    <string name="theory_string">原理是利用一些网站提供的手机注册信息服务对指定号码进行手机攻击，请放心使用。</string>
+    <string name="number_string">友情提示：已经轰炸了%d次。</string>
+    <string name="basic_setting_string">基本设置</string>
+    <string name="save_number_string">自动保存上次输入的号码</string>
+    <string name="setting_internval_string">设置轰炸间隔时间</string>
+    <string name="please_string">请输入</string>
+    <string name="setting_internval_prompt_string">请尽量设置20秒以上（单位秒）</string>
+    <string name="internval_string">时间间隔:</string>
+    <string name="sure_string">确定</string>
+    <string name="quit_string">取消</string>
+
+</resources>
